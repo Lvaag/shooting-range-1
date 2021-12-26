@@ -131,11 +131,11 @@ function handleBubbleCollision(bubbleGroup){
 
 function handleGameover(bubbleGroup){
   
-    /*life=life-1;
-    bubbleGroup.destroyEach();*/
-
-     life=life+1;
+    life=life-1;
     bubbleGroup.destroyEach();
+
+    /* life=life+1;
+    bubbleGroup.destroyEach();*/
     
      /*life=life-1;
     bubbleGroup.destroy();*/
